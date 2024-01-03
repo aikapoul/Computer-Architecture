@@ -59,8 +59,8 @@
 #### _Υποερώτημα α_
 |   | MinorCPU  | TimingSimpleCPU  |
 |---|---|---|
-|  Number of Ticks |   |   |
-|  Simulation seconds   |   |   |
-|  Number of CPU cycles |   |   | 
-|  Number of committed instructions |   |   | 
-|  CPI (cycles per instruction) |   |   |
+|  Number of Ticks |  32204000 |   |
+|  Simulation seconds   | 0.000032  |   |
+|  Number of CPU cycles | 64408  |   | 
+|  Number of committed instructions | 8442  |   | 
+|  CPI (cycles per instruction) |  7.6295  |   |
