@@ -100,7 +100,7 @@
 #### **Ερώτημα 1**
 |  Cache Type  | Size  | Associativity  | Line size (bytes)  |
 |---|---|---|---|
-|  L1 Data |  30643000 |  36023000  |  64  |
-|  L1 instruction   | 0.000031  |  0.000036  |  64  |
-|  L2 | 61286  |  72046  |  64  |
+|  L1 Data [system.cpu.dcache]  |  2-way |  65536  |  64  |
+|  L1 instruction [system.cpu.icache]  | 2-way  |  32768  |  64  |
+|  L2 [system.l2]  | 8-way  |  2097152  |  64  |
 
