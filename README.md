@@ -54,3 +54,13 @@
 4. TimingSimpleCPU:
     * Το TimingSimpleCPU είναι ένα in-order μοντέλο CPU που προσομοιώνει τις καθυστερήσεις χρονισμού.
     * Χρησιμοποιείται για προσομοιώσεις που απαιτούν ακριβή μοντελοποίηση του χρονισμού εκτέλεσης.
+  
+  
+#### _Υποερώτημα α_
+|   | MinorCPU  | TimingSimpleCPU  |
+|---|---|---|
+|  Number of Ticks |   |   |
+|  Simulation seconds   |   |   |
+|  Number of CPU cycles |   |   | 
+|  Number of committed instructions |   |   | 
+|  CPI (cycles per instruction) |   |   |
