@@ -32,5 +32,11 @@
 
 * host_inst_rate: 86201 (inst/sec) Προσδιορίζει το ρυθμό εκτέλεσης εντολών στον υπολογιστικό κόμβο (host) κατά τη διάρκεια της προσομοίωσης. Συνήθως μετριέται σε εντολές ανά δευτερόλεπτο και παρέχει πληροφορίες σχετικά με την απόδοση της προσομοίωσης σε επίπεδο υπολογιστικού κόμβου.
 
-  #### _Υποερώτημα c_
-  Βάσει του *stats.txt* συνολικά έχουμε 5028 committed instructions (_system.cpu_cluster.cpus.committedInsts_), ενώ 5831 commited ops (_system.cpu_cluster.cpus.committedOps_). 
+#### _Υποερώτημα c_
+Βάσει του *stats.txt* συνολικά έχουμε 5028 committed instructions (_system.cpu_cluster.cpus.committedInsts_), ενώ 5831 commited ops (_system.cpu_cluster.cpus.committedOps_). Η διαφορά προκύπτει από το γεγονός ότι οι εντολές που στέλνονται προς τη CPU για εκτέλεση δεν έχουν 1-προς-1 αντιστοιχία με τα πραγματικά "micro-operations" που εκτελεί ο επεξεργαστής στο υλικό του. Με άλλα λόγια, μία εντολή από την ISA της CPU μπορεί να απαιτεί παραπάνω από ένα micro-operation για να εκτελεστεί.
+
+#### _Υποερώτημα d_
+Συνολικά η L2 cache προσπελάστηκε 474 φορές, όπως φαίνεται και από την καταχώρηση system.cpu_cluster.l2.overall_accesses::total 474   στο status.txt. Οι προσπελάσεις της L2 μπορούν να υπολογιστούν έμμεσα από τα misses της L1i L1d (dcache και icache): system.cpu_cluster.cpus.dcache.demand_mshr_misses::total  147 και system.cpu_cluster.cpus.icache.demand_misses::.cpu_cluster.cpus.inst  327. Σύνολο δηλαδή: 147 + 327 = 474
+
+
+#### **Ερώτημα 3**
