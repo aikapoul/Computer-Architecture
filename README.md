@@ -1,7 +1,7 @@
 # Αρχιτεκτονική Υπολογιστών ΑΠΘ 2023-2024
 ## _Πουλή Αικατερίνη, ΑΕΜ:7967, e-mail: aikapoul@ece.auth.gr_
-### ΜΕΡΟΣ ΠΡΩΤΟ
-#### Ερώτημα 1
+### **ΜΕΡΟΣ ΠΡΩΤΟ**
+#### **Ερώτημα 1**
 Κοιτάζοντας το αρχείο **starter_se.py** εξάγουμε τα εξής δεδομένα:
 * Τύπος CPU (CPU Type): AtomicSimpleCPU
 * Συχνότητα CPU (CPU Frequency): 1GHz
@@ -11,3 +11,7 @@
 * Αριθμός Ranks Μνήμης ανά Κανάλι (Number of Memory Ranks per Channel): None
 * Φυσικό Μέγεθος Μνήμης (Physical Memory Size): 2GB
 * Τάση συστήματος (VoltageDomain): 3.3V
+* 
+#### **Ερώτημα 2**
+#### _Υποερώτημα α_
+
