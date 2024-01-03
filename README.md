@@ -59,7 +59,7 @@
 #### _Υποερώτημα α_
 |   | MinorCPU  | TimingSimpleCPU  |
 |---|---|---|
-|  Number of Ticks |  32204000 |  36631000 |
+|  Number of Ticks |  32204000 |  36631000  |
 |  Simulation seconds   | 0.000032  |  0.000037  |
 |  Number of CPU cycles | 64408  |  73262  | 
 |  Number of committed instructions | 8442  |  8390  | 
