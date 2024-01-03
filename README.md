@@ -64,3 +64,27 @@
 |  Number of CPU cycles | 64408  |  73262  | 
 |  Number of committed instructions | 8442  |  8390  | 
 |  CPI (cycles per instruction) |  7.6295  |  8.7321 |
+
+#### _Υποερώτημα b_
+Παρατηρούμε ότι ο _TimingSimpleCPU_ είναι κατά 15,63% πιο αργός από τον _MinorCPU_ για την εκτέλεση του ίδιου προγράμματος. Αυτή η διαφορά οφείλεται στο γεγονός ότι ο _TimingSimpleCPU_ δε διαθέτει κάποιο pipeline, ενώ επίσης λαμβάνει υπόψη του και τις καθυστερήσεις στο queueing των εντολών και μέσα στην cache, εκτός από αυτές που προκύπτουν αποκλειστικά λόγω της μεταφοράς δεδομένων από τη RAM στην cache.
+
+#### _Υποερώτημα c_
+
+### CPU clock: 100MHz
+|   | MinorCPU  | TimingSimpleCPU  |
+|---|---|---|
+|  Number of Ticks |  171920000 |  285650000  |
+|  Simulation seconds   | 0.000172  |  0.000286  |
+|  Number of CPU cycles | 17192  |  28565  | 
+|  Number of committed instructions | 8442  |  8390  | 
+|  CPI (cycles per instruction) |  8.6783  |  3.4047 |
+
+### Memory type: DDR4_2400_8x8
+|   | MinorCPU  | TimingSimpleCPU  |
+|---|---|---|
+|  Number of Ticks |  30643000 |  36023000  |
+|  Simulation seconds   | 0.000031  |  0.000036  |
+|  Number of CPU cycles | 61286  |  72046  | 
+|  Number of committed instructions | 8442  |  8390  | 
+|  CPI (cycles per instruction) |  7.2597  |  8.5871 |
+
