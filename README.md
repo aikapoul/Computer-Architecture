@@ -10,6 +10,4 @@
 * Αριθμός Καναλιών Μνήμης (Number of Memory Channels): 2
 * Αριθμός Ranks Μνήμης ανά Κανάλι (Number of Memory Ranks per Channel): None
 * Φυσικό Μέγεθος Μνήμης (Physical Memory Size): 2GB
-* Χαρακτηριστικά Κρυφού Διαύλου Μνήμης (Caches):
 * Τάση συστήματος (VoltageDomain): 3.3V
-* Τάση πυρήνα (CPU claster voltage): 1.2V 
