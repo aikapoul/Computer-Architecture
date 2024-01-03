@@ -1,2 +1,3 @@
-# Computer-Architecture
-Πουλή Αικατερίνη, ΑΕΜ:7967, e-mail: aikapoul@ece.auth.gr
+#Αρχιτεκτονική Υπολογιστών ΑΠΘ 2023-2024
+##Πουλή Αικατερίνη, ΑΕΜ:7967, e-mail: aikapoul@ece.auth.gr
+
