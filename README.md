@@ -200,7 +200,7 @@ To system.clk_domain.clock ισούται με 1000 ticks και στα τρία
 * L1 Instruction Cache Associativity: 2, 4, 8
 * L2 Cache Associativity: 4, 8
 * Cache Line Size: 32 Bytes, 64 Bytes, 128 Bytes
-Για την αυτοματοποιημένη εκτέλεση των εντολών, έγινε χρήση του bash script **run.sh** .
+  
 Παρακάτω βλέπουμε τις δοκιμές για το κάθε benchmark, με τα παραμέτρους της καθεμιάς.
 
 | Benchmarks   | L1\_dcache\_size | L1\_icache\_size | L2\_cache\_size | L1\_dcache\_assoc | L1\_icache\_assoc | L2\_cache\_assoc | cacheline\_size |
