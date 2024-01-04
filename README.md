@@ -110,6 +110,7 @@
 Βάσει των αποτελεσμάτων των benchmark, συνέλεξα τα δεδομένα σε ένα πίνακα ως εξής:
 
 |  Benchmarks  |  sim_seconds  |  system.cpu.cpi  |  system.cpu.dcache.overall_miss_rate::total  |  system.cpu.icache.overall_miss_rate::total  |  system.l2.overall_miss_rate::total  |
+|---|---|---|---|---|---|
 |  specbzip  |  0.083982  |  1.679650  |  0.014798  |  0.000077  |  0.282163  |
 |  speclibm  |  0.174671  |  3.493415  |  0.060972  |  0.000094  |  0.999944  |
 |  spechmmer |  0.059396  |  1.187917  |  0.001637  |  0.000221  |  0.077760  |
