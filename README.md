@@ -119,5 +119,9 @@
 
 Ας δούμε και τα γραφήματα:
 
-
+![SimTime](./PART2/plots/sim_seconds.png)
+![CPI](./PART2/plots/system.cpu.cpi.png) 
+![DCacheMR](./PART2/plots/system.cpu.dcache.overall_miss_rate_total.png) 
+![ICacheMR](./PART2/plots/system.cpu.icache.overall_miss_rate_total.png) 
+![L2MR](./PART2/plots/system.l2.overall_miss_rate_total.png) 
 
