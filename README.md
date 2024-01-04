@@ -103,6 +103,9 @@ queueing των εντολών και μέσα στην cache, εκτός από
 
 
 ### **ΜΕΡΟΣ ΔΕΥΤΕΡΟ**
+
+**_BHMA 1_**
+
 #### **Ερώτημα 1**
 
 |  Cache Type  |  Associativity  |  Size  |  Line size (bytes)  |
@@ -183,3 +186,20 @@ To system.clk_domain.clock ισούται με 1000 ticks και στα τρία
 
 Οι αλλαγές στη ρύθμιση της μνήμης φαίνεται να έχουν ελάχιστη επίδραση στα χαρακτηριστικά απόδοσης του συγκεκριμένου benchmark specbzip, με την ταχύτερη μνήμη να παρέχει ελαφρώς καλύτερη συνολική απόδοση.
 Στην περίπτωση του benchmark specbzip, ο χαρακτηριστικός φόρτος εργασίας μπορεί να μην εκδηλώνει σημαντική εξάρτηση από την ταχύτητα της μνήμης.
+
+**_BHMA 2_**
+
+#### **Ερώτημα 1**
+
+Με βάση το πρώτο μέρος, για τα πρότυπα αρεικρισίας / benchmarks του ερωτήματος 2 επιλέχθηκαν οι ακόλουθες τιμές:
+
+* L1 Data Cache Size: 64 kB, 128 kB
+* L1 Instruction Cache Size: 32 kB, 64 kB
+* L2 Cache Size: 1 MB, 2 MB, 4 MB
+* L1 Data Cache Associativity: 2, 4, 8
+* L1 Instruction Cache Associativity: 2, 4, 8
+* L2 Cache Associativity: 4, 8
+* Cache Line Size: 32 Bytes, 64 Bytes, 128 Bytes
+Για την αυτοματοποιημένη εκτέλεση των εντολών, έγινε χρήση του bash script **run.sh** .
+Παρακάτω βλέπουμε τις δοκιμές για το κάθε benchmark, με τα παραμέτρους της καθεμιάς.
+
