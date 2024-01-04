@@ -242,3 +242,11 @@ caches εδώ) ούτως ώστε να υπάρχει ένας συγχρονι
 | speclibm\_3  | 128              | 32               | 4096            | 4                 | 2                 | 8                | 64              |
 | speclibm\_4  | 128              | 32               | 4096            | 4                 | 2                 | 8                | 128             |
 
+#### **Ερώτημα 2**
+
+Ας δούμε και τα γραφήματα:
+
+![CPI](./PART2/TASK2/PLOTS/cpi_plot.png) 
+![DCacheMR](./PART2/TASK2/PLOTS/Dcache_plot.png) 
+![ICacheMR](./PART2/TASK2/PLOTS/Icache_plot.png) 
+![L2MR](./PART2/TASK2/PLOTS/L2_plot.png) 
