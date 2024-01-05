@@ -262,12 +262,12 @@ caches εδώ) ούτως ώστε να υπάρχει ένας συγχρονι
 
 Με βάσει τα αποτελέσματα θα πρέπει να δημιουργηθεί μια συνάρτηση κόστους 
 > Cost\=w1​⋅(L1d\_cache\_size+L1i\_cache\_size)+w2​⋅L2\_cache\_size+w3​⋅(L1d\_cache\_assoc+L1i\_cache\_assoc+L2\_cache\_assoc)+w4​⋅cache\_line\_size
->
-> Σε αυτήν την εξίσωση:
 
-*   L1d\_cache\_size\\text{L1d\\\_cache\\\_size}L1d\_cache\_size είναι το μέγεθος της L1 data cache.
-*   L1i\_cache\_size\\text{L1i\\\_cache\\\_size}L1i\_cache\_size είναι το μέγεθος της L1 instruction cache.
-*   L2\_cache\_size\\text{L2\\\_cache\\\_size}L2\_cache\_size είναι το μέγεθος της L2 cache.
-*   L1d\_cache\_assoc\\text{L1d\\\_cache\\\_assoc}L1d\_cache\_assoc, L1i\_cache\_assoc\\text{L1i\\\_cache\\\_assoc}L1i\_cache\_assoc, και L2\_cache\_assoc\\text{L2\\\_cache\\\_assoc}L2\_cache\_assoc είναι οι συσχετίσεις της L1 data cache, L1 instruction cache, και L2 cache, αντίστοιχα.
-*   cache\_line\_size\\text{cache\\\_line\\\_size}cache\_line\_size είναι το μέγεθος της γραμμής της cache.
-*   w1,w2,w3,w4w\_1, w\_2, w\_3, w\_4w1​,w2​,w3​,w4​ είναι βάρη που αντιπροσωπεύουν τη σημασία της κάθε παραμέτρου στο συνολικό κόστος.
+ Σε αυτήν την εξίσωση:
+
+*   L1d\_cache\_size είναι το μέγεθος της L1 data cache.
+*   L1i\_cache\_size είναι το μέγεθος της L1 instruction cache.
+*   L2\_cache\_size είναι το μέγεθος της L2 cache.
+*   L1d\_cache\_assoc, L1i\_cache\_assoc, και L2\_cache\_assoc είναι οι συσχετίσεις της L1 data cache, L1 instruction cache, και L2 cache, αντίστοιχα.
+*   cache\_line\_size είναι το μέγεθος της γραμμής της cache.
+*   w1,w2,w3,w4 είναι βάρη που αντιπροσωπεύουν τη σημασία της κάθε παραμέτρου στο συνολικό κόστος.
