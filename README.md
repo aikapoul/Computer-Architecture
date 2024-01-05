@@ -261,3 +261,4 @@ caches εδώ) ούτως ώστε να υπάρχει ένας συγχρονι
 **_BHMA 3_**
 
 Με βάσει τα αποτελέσματα θα πρέπει να δημιουργηθεί μια συνάρτηση κόστους 
+Cost\=w1​⋅(L1d\_cache\_size+L1i\_cache\_size)+w2​⋅L2\_cache\_size+w3​⋅(L1d\_cache\_assoc+L1i\_cache\_assoc+L2\_cache\_assoc)+w4​⋅cache\_line\_size
