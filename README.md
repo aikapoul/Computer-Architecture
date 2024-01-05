@@ -275,3 +275,7 @@ caches εδώ) ούτως ώστε να υπάρχει ένας συγχρονι
   Είδαμε ότι για το specbzip, αυξήσεις στο μέγεθος των L1 dcache και L2 cache έχουν μικρή επίδραση, ενώ η αύξηση του associativity δεν φαίνεται να έχει σημαντική επίδραση. Ως εκ τούτου, τα βάρη μπορεί να είναι κοντά σε 1 για τα L1 caches, 1/32 για το L2 cache, και κοντά σε 96 για το associativity.
 
 > Cost\=(L1d\_cache\_size+L1i\_cache\_size)+1/32​⋅L2\_cache\_size+96​⋅(L1d\_cache\_assoc+L1i\_cache\_assoc+L2\_cache\_assoc)+cache\_line\_size
+>
+> και το Score = Cost * CPI
+
+
