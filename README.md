@@ -35,7 +35,7 @@
 με την απόδοση της προσομοίωσης σε επίπεδο υπολογιστικού κόμβου.
 
 #### _Υποερώτημα c_
-Βάσει του *stats.txt* συνολικά έχουμε 5028 committed instructions (_system.cpu_cluster.cpus.committedInsts_), ενώ 5831 commited ops (_system.cpu_cluster.cpus.committedOps_). Η διαφορά προκύπτει από το γεγονός ότι οι
+Βάσει του *stats.txt* συνολικά έχουμε 5027 committed instructions (_system.cpu_cluster.cpus.committedInsts_), ενώ 5831 commited ops (_system.cpu_cluster.cpus.committedOps_). Η διαφορά προκύπτει από το γεγονός ότι οι
 εντολές που στέλνονται προς τη CPU για εκτέλεση δεν έχουν 1-προς-1 αντιστοιχία με τα πραγματικά "micro-operations" που εκτελεί ο επεξεργαστής στο υλικό του. Με άλλα λόγια, μία εντολή από την ISA της CPU μπορεί να απαιτεί
 παραπάνω από ένα micro-operation για να εκτελεστεί.
 
